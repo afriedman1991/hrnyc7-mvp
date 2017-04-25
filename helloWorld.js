@@ -15,7 +15,7 @@ app.post('/getNewImage',
 		var options = {
 	      url: 'https://api.gettyimages.com/v3/search/images?phrase='+req.body.query,
           headers: {
-            'Api-Key': process.env.API_KEY
+            'Api-Key': '2e8sjc2rj42fm62y9sdp8hbz'
           }
         }
 		console.log(req.body.query) //mountain
