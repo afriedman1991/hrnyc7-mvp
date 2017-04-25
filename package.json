@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Display random picture from random place",
   "scripts": {
+    "start": "node helloWorld.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
